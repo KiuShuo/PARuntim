@@ -1,11 +1,5 @@
 #Runtime
 参考资料：  
-[官方文档翻译](http://www.jianshu.com/p/158c5d118937)  
-[iOS runtime 之 Class 和 MetaClass](http://www.jianshu.com/p/8036f15c91c6)  
-[iOS开发之Runtime常用示例总结](http://www.cocoachina.com/ios/20170301/18804.html)  
-[OC最实用的runtime总结，面试、工作你看我就足够了！](http://www.jianshu.com/p/ab966e8a82e2)  
-[RunTime应用实例--关于埋点的思考
-](http://www.jianshu.com/p/69859d580354)
 
 ######...是什么？
 Runtime是OC底层的一套C语言API，编译器最终都会将OC代码转化为运行时代码。  
@@ -66,24 +60,4 @@ Method class_getInstanceMethod(Class cls, SEL name)
 Void method_exchangeImplementations(Method m1, Method m2)
 ```
 ***
-
-######...什么时候用？
-1. 通过分类添加属性值；  
-	* 如果在分类的声明中写@property 只能为其生成get 和 set 方法的声明，但无法生成成员变量，就是虽然点语法能调用出来，但程序执行后会crash.
-	* 通过@property声明属性，默认会自动生成一个成员变量，并且生成setter、getter方法；
-	* 通过runtime的方式在分类中添加属性。
-2. 交换两个方法的实现，拦截系统自带的方法调用功能；  
-3. 获取一个类的所有成员变量；
-	* 获取model中所有成员变量和类型；
-	* 利用runtime获取所有属性，来重写归档解归档方法；  
-	* 利用runtime获取所有属性，进行字典转model；
-
-######...用起来
-1. 使用Runtime进行埋点操作；
-2. 使用Runtime获取所有属性，进行归档解归档操作；
-3. 使用Runtime获取所有属性，进行字典转model操作。
-
-[ObjCRuntimeDemo](https://github.com/lizelu/ObjCRuntimeDemo)  
-[XHRuntimeDemo](https://github.com/XHTeng/XHRuntimeDemo)  
-[LogByRunTime](https://github.com/MikeFighting/LogByRunTime)
 
