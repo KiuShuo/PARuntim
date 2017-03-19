@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88DBE9DA1E7E207600B04C0A /* Person+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DBE9C81E7E207500B04C0A /* Person+Category.m */; };
+		88DBE9DB1E7E207600B04C0A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DBE9CA1E7E207500B04C0A /* Person.m */; };
+		88DBE9DC1E7E207600B04C0A /* UIControl+AddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DBE9CC1E7E207500B04C0A /* UIControl+AddProperty.m */; };
+		88DBE9DD1E7E207600B04C0A /* PARuntimeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DBE9D01E7E207500B04C0A /* PARuntimeKit.m */; };
+		88DBE9DF1E7E207600B04C0A /* UIControl+AddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DBE9D51E7E207500B04C0A /* UIControl+AddProperty.m */; };
+		88DBE9E01E7E207600B04C0A /* UIControl+Swap.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DBE9D71E7E207500B04C0A /* UIControl+Swap.m */; };
+		88DBE9E11E7E207600B04C0A /* UIControl+Swap.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DBE9D91E7E207600B04C0A /* UIControl+Swap.m */; };
 		8D8FE1BC1E777C0800868D0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8FE1BB1E777C0800868D0E /* main.m */; };
 		8D8FE1BF1E777C0800868D0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8FE1BE1E777C0800868D0E /* AppDelegate.m */; };
 		8D8FE1C21E777C0800868D0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8FE1C11E777C0800868D0E /* ViewController.m */; };
@@ -35,6 +42,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88DBE9C71E7E207500B04C0A /* Person+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+Category.h"; sourceTree = "<group>"; };
+		88DBE9C81E7E207500B04C0A /* Person+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+Category.m"; sourceTree = "<group>"; };
+		88DBE9C91E7E207500B04C0A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		88DBE9CA1E7E207500B04C0A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		88DBE9CB1E7E207500B04C0A /* UIControl+AddProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+AddProperty.h"; sourceTree = "<group>"; };
+		88DBE9CC1E7E207500B04C0A /* UIControl+AddProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+AddProperty.m"; sourceTree = "<group>"; };
+		88DBE9CD1E7E207500B04C0A /* PARuntime-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PARuntime-Bridging-Header.h"; sourceTree = "<group>"; };
+		88DBE9CF1E7E207500B04C0A /* PARuntimeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PARuntimeKit.h; sourceTree = "<group>"; };
+		88DBE9D01E7E207500B04C0A /* PARuntimeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PARuntimeKit.m; sourceTree = "<group>"; };
+		88DBE9D41E7E207500B04C0A /* UIControl+AddProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+AddProperty.h"; sourceTree = "<group>"; };
+		88DBE9D51E7E207500B04C0A /* UIControl+AddProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+AddProperty.m"; sourceTree = "<group>"; };
+		88DBE9D61E7E207500B04C0A /* UIControl+Swap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Swap.h"; sourceTree = "<group>"; };
+		88DBE9D71E7E207500B04C0A /* UIControl+Swap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Swap.m"; sourceTree = "<group>"; };
+		88DBE9D81E7E207600B04C0A /* UIControl+Swap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Swap.h"; sourceTree = "<group>"; };
+		88DBE9D91E7E207600B04C0A /* UIControl+Swap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Swap.m"; sourceTree = "<group>"; };
 		8D8FE1B71E777C0800868D0E /* PARuntime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PARuntime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D8FE1BB1E777C0800868D0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D8FE1BD1E777C0800868D0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +100,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88DBE9C61E7E207500B04C0A /* AddProperty */ = {
+			isa = PBXGroup;
+			children = (
+				88DBE9C71E7E207500B04C0A /* Person+Category.h */,
+				88DBE9C81E7E207500B04C0A /* Person+Category.m */,
+				88DBE9C91E7E207500B04C0A /* Person.h */,
+				88DBE9CA1E7E207500B04C0A /* Person.m */,
+				88DBE9CB1E7E207500B04C0A /* UIControl+AddProperty.h */,
+				88DBE9CC1E7E207500B04C0A /* UIControl+AddProperty.m */,
+			);
+			path = AddProperty;
+			sourceTree = "<group>";
+		};
+		88DBE9CE1E7E207500B04C0A /* PARuntimeKit */ = {
+			isa = PBXGroup;
+			children = (
+				88DBE9CF1E7E207500B04C0A /* PARuntimeKit.h */,
+				88DBE9D01E7E207500B04C0A /* PARuntimeKit.m */,
+			);
+			path = PARuntimeKit;
+			sourceTree = "<group>";
+		};
+		88DBE9D31E7E207500B04C0A /* Swap */ = {
+			isa = PBXGroup;
+			children = (
+				88DBE9D41E7E207500B04C0A /* UIControl+AddProperty.h */,
+				88DBE9D51E7E207500B04C0A /* UIControl+AddProperty.m */,
+				88DBE9D61E7E207500B04C0A /* UIControl+Swap.h */,
+				88DBE9D71E7E207500B04C0A /* UIControl+Swap.m */,
+			);
+			path = Swap;
+			sourceTree = "<group>";
+		};
 		8D8FE1AE1E777C0800868D0E = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +156,12 @@
 		8D8FE1B91E777C0800868D0E /* PARuntime */ = {
 			isa = PBXGroup;
 			children = (
+				88DBE9CE1E7E207500B04C0A /* PARuntimeKit */,
+				88DBE9D31E7E207500B04C0A /* Swap */,
+				88DBE9C61E7E207500B04C0A /* AddProperty */,
+				88DBE9CD1E7E207500B04C0A /* PARuntime-Bridging-Header.h */,
+				88DBE9D81E7E207600B04C0A /* UIControl+Swap.h */,
+				88DBE9D91E7E207600B04C0A /* UIControl+Swap.m */,
 				8D8FE1BD1E777C0800868D0E /* AppDelegate.h */,
 				8D8FE1BE1E777C0800868D0E /* AppDelegate.m */,
 				8D8FE1C01E777C0800868D0E /* ViewController.h */,
@@ -273,7 +334,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88DBE9DF1E7E207600B04C0A /* UIControl+AddProperty.m in Sources */,
+				88DBE9DC1E7E207600B04C0A /* UIControl+AddProperty.m in Sources */,
+				88DBE9DA1E7E207600B04C0A /* Person+Category.m in Sources */,
+				88DBE9DD1E7E207600B04C0A /* PARuntimeKit.m in Sources */,
+				88DBE9E01E7E207600B04C0A /* UIControl+Swap.m in Sources */,
 				8D8FE1C21E777C0800868D0E /* ViewController.m in Sources */,
+				88DBE9DB1E7E207600B04C0A /* Person.m in Sources */,
+				88DBE9E11E7E207600B04C0A /* UIControl+Swap.m in Sources */,
 				8D8FE1BF1E777C0800868D0E /* AppDelegate.m in Sources */,
 				8D8FE1BC1E777C0800868D0E /* main.m in Sources */,
 			);
@@ -507,6 +575,7 @@
 				8D8FE1E61E777C0800868D0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D8FE1E71E777C0800868D0E /* Build configuration list for PBXNativeTarget "PARuntimeTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +584,7 @@
 				8D8FE1E91E777C0800868D0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D8FE1EA1E777C0800868D0E /* Build configuration list for PBXNativeTarget "PARuntimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +593,7 @@
 				8D8FE1EC1E777C0800868D0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
